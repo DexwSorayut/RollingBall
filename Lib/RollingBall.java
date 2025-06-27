@@ -23,7 +23,7 @@ public class RollingBall extends JPanel implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
         x -= 2;
-        start_angle += 5;
+        start_angle += 4;
         if(x<= -ball_size){
             x = getWidth();
         }
