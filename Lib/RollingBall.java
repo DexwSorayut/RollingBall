@@ -4,6 +4,7 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
+
 public class RollingBall extends JPanel implements ActionListener{
 
     int x = 100;
@@ -32,4 +33,5 @@ public class RollingBall extends JPanel implements ActionListener{
         }
         repaint();
     }
+
 }
